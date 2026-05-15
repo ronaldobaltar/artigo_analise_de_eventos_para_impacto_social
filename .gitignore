@@ -90,10 +90,6 @@ __pycache__/
 .vscode/
 
 # --- Sistema operacional ---
-# macOS
-.DS_Store
-.AppleDouble
-.LSOverride
 
 # Windows
 Thumbs.db
