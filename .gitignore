@@ -48,3 +48,54 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 .positai
+
+# --- Diretório local que não deve ir para o GitHub ---
+bib_ref/
+
+# --- Saídas geradas pelo Quarto ---
+_site/
+_freeze/
+.quarto/
+
+# Arquivos renderizados
+*.html
+*.pdf
+*.docx
+*.epub
+*.odt
+*.pptx
+
+# Arquivos auxiliares do Pandoc / LaTeX
+*.log
+*.aux
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+
+# --- Arquivos temporários do R / RStudio ---
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- VSCode ---
+.vscode/
+
+# --- Sistema operacional ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
