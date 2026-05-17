@@ -7,15 +7,14 @@ filters:
 wordcount:
   count-code-blocks: false
   count-inline-code: false
+bibliography: references.bib
 ---
 
 ## Quarto
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
-Limite de palavras: 8000
-Total de palavras: {{wordcount}}
-
+Limite de palavras: 8000 Total de palavras: {{wordcount}}
 
 ## Running Code
 
@@ -32,4 +31,8 @@ You can add options to executable code like this
 2 * 2
 ```
 
-The `echo: false` option disables the printing of code (only output is displayed).
+A opção `echo: false` faz com que a saída seja feita somente pelo resultado, não o código.
+
+Inserir citação do Zotero. [@gabadinho2011]
+
+Os erros acho que só são corrigidos no modo código fonte.
