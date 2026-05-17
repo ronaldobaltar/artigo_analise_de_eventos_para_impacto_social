@@ -1,38 +1,34 @@
 ---
-title: "Análise de eventos para impacto social"
+title: "Análise de sequência para monitoramento e avaliação de impacto social"
 author: "Ronaldo Baltar e Cláudia S. Baltar"
-format: html
+format:
+  html: default
+  docx: default
+lang: pt-BR
+bibliography: references.bib
 filters:
   - wordcount
 wordcount:
   count-code-blocks: false
   count-inline-code: false
-bibliography: references.bib
 ---
 
-## Quarto
+Total de {{wordcount}} de 8.000 palavras já escritas.
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
-Limite de palavras: 8000 Total de palavras: {{wordcount}}
+# Introdução
+com definição clara do problema, objeto ou experiência investigada;
 
-## Running Code
+A RBAVAL respeita o estilo e a criatividade dos autores para a composição do texto, mas recomenda que os manuscritos dos artigos originais, ensaios e relatos de experiências contenham elementos convencionais tais como: (a) introdução,  (b) método: (c)  (e)  considerações finais: apontando aprendizados, usos, desdobramentos, limitações e efeitos da avaliação ou pesquisa em questão.
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
 
-```{r}
-1 + 1
-```
 
-You can add options to executable code like this
+# Método
+descritos de forma objetiva e clara, de modo a permitir a melhor compreensão possível do percurso de investigação e sua eventual reprodução; 
 
-```{r}
-#| echo: false
-2 * 2
-```
+# Resultados
+resultados e discussão, que podem ser apresentados juntos ou separados;
 
-A opção `echo: false` faz com que a saída seja feita somente pelo resultado, não o código.
+# Considerações finais
 
 Inserir citação do Zotero. [@gabadinho2011]
-
-Os erros acho que só são corrigidos no modo código fonte.
